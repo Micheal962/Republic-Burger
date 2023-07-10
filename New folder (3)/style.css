@@ -1,0 +1,174 @@
+.navbar-nav{
+	margin-left: 260px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.navbar-nav li {
+	margin-left: 20px;
+}
+
+.secfirst {
+	margin-top: 100px;
+}
+.f1 {
+	color: red;
+	font-size: 40px;
+}
+.f2 {
+	color: aqua;
+	font-size: 20px;
+}
+.f3{
+	color: blue;
+	font-size: 40px;
+}
+.f4{
+	color: gold;
+	font-size: 20px;
+}
+.f5 {
+	color: burlywood;
+	font-size: 40px;
+}
+.f6 {
+	color: #606060;
+	font-size: 20px;
+}
+.S1{
+	background-color: #606060;
+}
+.sec-second{
+	margin-top: 100px;
+	margin-left: 50px;
+	
+}
+.bg-white{
+	padding: 30px;
+	border-radius: 40px;
+	border: 2px solid black;
+}
+.sec-three{
+	margin-top: 50px;
+}
+.image{
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	margin-right: 50px;
+}
+.rectangle{
+	background-color: #222831;
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid orangered;
+	
+}
+.text {
+	color: white;
+}
+.sec-four{
+	height: 300px;
+	text-align: center;
+	margin: auto;
+	margin-top: 40px;
+}
+.Menu {
+	color: greenyellow;
+	text-decoration: overline;
+	font-size: 80px;
+}
+.sec-four h1 {
+	
+	font-weight: bolder;
+	font-size: 60px;
+}
+ .list-group li {
+	margin: 5px;
+	background-color: #606060;
+	color: gold;
+	font-weight: bolder;
+} 
+.list-group {
+	margin-left: 40px;
+	cursor: pointer;
+	border: 5px dashed orange;
+}
+.B1 {
+	border-left: 1px solid black;
+}
+.cardd {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ebebeb;
+    box-shadow: 5px 3px 10px #8f8f8f;
+    transition: 0.2s;
+	height: 410px;
+	
+}
+.contentt {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    place-items: center;
+    gap: 35px;
+}
+.cardd:hover {
+    box-shadow: none;
+}
+
+.cardd img {
+    width: 200px;
+	height: 250px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+.cardd:hover img {
+    transform: rotate3d(0, 0, 1, 90deg);
+}
+ .cardd .info {
+	width: 320px;
+    padding: 15px;
+	background-color: aquamarine;
+    border-radius: 40px 15px 50px 10px;
+    padding-top: 32px;
+    color: white;
+}
+ .cardd .info h2 {
+    color: red;
+    font-size: 32px;
+    font-weight: 800;
+    
+}
+.cardd .info p {
+    line-height: 1.5;
+    font-style: italic;
+    font-size: 15px;
+    color: #777;
+    font-weight: bolder;
+    
+}
+.cardd .info .icons span {
+    color: goldenrod;
+    font-weight: 800;
+    font-size: 17px;
+}
+.sec-six{
+	padding-top: 70px;
+	width: 700px;
+	height: 700px;
+	margin: auto;
+	
+}
+.hex {
+	border-bottom: 5px solid green;
+	color: orchid;
+}
+.hexa {
+	text-align: center;
+	color: olivedrab;
+	margin-bottom: 30px;
+}

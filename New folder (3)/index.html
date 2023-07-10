@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Republic Burger Restaueant</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Republic Burger </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Customer Support</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Burger Mushroom</a></li>
+              <li><a class="dropdown-item" href="#">Big Tasty Burger</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Types of fires</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="secfirst">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="pexels-valeria-boltneva-1639562.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="f1">The Best Burger You will order !!</h5>
+          <p class="f2">We are Here to Let you Happy</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="churros-g6b59ebc07_1280.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="f3">The Best Sweets you will Ever Taste !!</h5>
+          <p class="f4">We are Here to Let you Happy</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="hero-bg.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="f5">If You are Starving Order it Now !!</h5>
+          <p class="f6">We are Here to Let you Happy</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<section class="sec-second">
+<div class="container">
+  <div class="bg-white shadow">
+    <div class="row g-2">
+      <div class="col-md-10">
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="date" id="date1" date-targer-input="nearest">
+              <input  type="text" class="form-control datetimepicker-input" placeholder="Check Order" date-targer="#date1" date-toggle="datetimepicker">
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="date" id="date2" date-targer-input="nearest">
+              <input  type="text" class="form-control datetimepicker-input" placeholder="Submit Order" date-targer="#date2" date-toggle="datetimepicker">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <select name="" id="" class="form-select">
+              <option value="" selected>Meals</option>
+              <option value="1" >Burger</option>
+              <option value="2">Fries</option>
+              <option value="3">Fried Cheken</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <select name="" id="" class="form-select">
+              <option value="Sizes" >Sizes</option>
+              <option value="Medium" >Medium</option>
+              <option value="Large">Large</option>
+              <option value="Family Meal">Family Meal</option>
+            </select>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-2">
+        <button href="#" type="button" class="btn btn-primary w-100">CheckOut</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="sec-three">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="rectangle">
+          <img src="OIP.jpeg" alt="" class="d-block image">
+          <div class="text">
+            <h2>BigTasty Burger</h2>
+            <p style="font-style: italic; font-size: larger;">50% Sale</p>
+            <button class="btn btn-primary">Add To Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="rectangle">
+          <img src="th.jpeg" alt="" class="d-block image">
+          <div class="text">
+            <h2>Tasty French Fries</h2>
+            <p style="font-style: italic;font-size: larger;">10% Sale</p>
+            <button class="btn btn-primary">Add To Cart</button>
+          </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="sec-four">
+  <h1><span class="Menu">O</span>ur Menu</h1>
+  <ul class="list-group list-group-horizontal">
+    <li class="list-group-item flex-fill" class="B1">Burger
+      <span class="badge bg-primary rounded-pill">100</span>
+    </li>
+    <li class="list-group-item flex-fill">Fried Chicken
+      <span class="badge bg-primary rounded-pill">8</span>
+    </li>
+    <li class="list-group-item flex-fill">French Fries
+      <span class="badge bg-primary rounded-pill">20</span>
+    </li>
+  </ul>
+</section>
+
+
+
+
+<section class="sec-five">
+  <div class="container">
+    <div class="row contentt">
+      <div class="col">
+        <div class="cardd">
+          <img src="OIP.jpeg" alt="">
+          <div class="info">
+            <h2>Delicious Burger</h2>
+            <p>Best Burger</p>
+            <div class="icons">
+              <span>$600</span>
+            </div>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="cardd">
+      <img src="th.jpeg" alt="">
+      <div class="info">
+        <h2>Delicious Burger</h2>
+        <p>Best Burger</p>
+        <div class="icons">
+          <span>$500</span>
+        </div>
+  </div>
+</div>
+</div>
+<div class="col">
+  <div class="cardd">
+    <img src="th (1).jpeg" alt="">
+    <div class="info">
+      <h2>Delicious Burger</h2>
+      <p>Best Burger</p>
+      <div class="icons">
+        <span>$400</span>
+      </div>
+</div>
+</div>
+</div>
+<div class="col">
+  <div class="cardd">
+    <img src="th (2).jpeg" alt="">
+    <div class="info">
+      <h2>Delicious Burger</h2>
+      <p>Best Burger</p>
+      <div class="icons">
+        <span>$300</span>
+      </div>
+</div>
+</div>
+</div>
+<div class="col">
+  <div class="cardd">
+    <img src="th (3).jpeg" alt="">
+    <div class="info">
+      <h2>Delicious Burger</h2>
+      <p>Best Burger</p>
+      <div class="icons">
+        <span>$200</span>
+      </div>
+</div>
+</div>
+</div>
+<div class="col">
+  <div class="cardd">
+    <img src="th (4).jpeg" alt="">
+    <div class="info">
+      <h2>Delicious Burger</h2>
+      <p>Best Burger</p>
+      <div class="icons">
+        <span>$100</span>
+      </div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="sec-six">
+  <h1 class="hexa"><span class="hex">O</span>rder Now</h1>
+
+
+
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">First Name</span>
+    <input type="text" class="form-control" placeholder="Your First Name" aria-label="Your First Name" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Second Name</span>
+    <input type="text" class="form-control" placeholder="Your Second Name" aria-label="Your Second Name" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Last Name</span>
+    <input type="text" class="form-control" placeholder="Your Last Name" aria-label="Your Last Name" aria-describedby="basic-addon1">
+  </div>
+  
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Email Address</span>
+    <input type="text" class="form-control" placeholder="Your Email Address" aria-label="Your Email Address" aria-describedby="basic-addon1">
+  </div>
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Landline Number</span>
+    <input type="text" class="form-control" placeholder="Your Landline Number" aria-label="Your Landline Number" aria-describedby="basic-addon1">
+  </div>
+  
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon1">Address</span>
+    <input type="text" class="form-control" placeholder="Your Address" aria-label="Your Address" aria-describedby="basic-addon1">
+  </div>
+  
+  <div class="input-group">
+    <span class="input-group-text"> Textarea</span>
+    <textarea class="form-control" aria-label=" textarea" placeholder="IF you have Some Notes Feel Free to write it Down"></textarea>
+  </div>
+
+  <div class="input-group">
+    
+    <button class="btn btn-danger " style="margin-top: 20px; width: 200px; padding: 12px; margin-left: 250px;font-size: larger;font-style: italic;font-weight: bolder;" type="button" id="inputGroupFileAddon04">Finalize Your Order</button>
+  </div>
+</section>
+
+
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start  " style="border: 3px dashed black; background-color: #55acee; color:whitesmoke; font-weight: bolder;" >
+ 
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3 text-secondary"></i>Republic Burger
+          </h6>
+          <p>
+          You will addict us Trust Us!!
+          </p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Beef Burger</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Chicken Burger</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Fried Chicken</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">French Fries / Pizza</a>
+          </p>
+        </div>
+      
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+         
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Menu</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Customer Services</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> Cairo</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            BurgerRepublic17@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> 012853343399</p>
+          <p><i class="fas fa-print me-3 text-secondary"></i> 02265178712</p>
+        </div>
+        
+      </div>
+      
+    </div>
+  </section>
+  
+
+  
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+    Republic Burger
+  </div>
+</footer>
+
+<footer class="bg-light text-center text-white">
+  
+  <div class="container p-4 pb-0">
+    
+    <section class="mb-4">
+      
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      
+    </section>
+
+  </div>
+  
+
+  
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    Republic Burger
+    
+  </div>
+  
+  
+</footer>
+
+
+<script src="bootstrap.bundle.js"></script>
+</body>
+</html>
